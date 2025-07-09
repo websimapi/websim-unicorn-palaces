@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif; /* Whimsical font */
+    background: url(./background.png) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#palace-svg {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+}
+
+#instructions {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    user-select: none;
+}
+
